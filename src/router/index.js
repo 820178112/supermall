@@ -32,10 +32,18 @@ const routes = [
     component: Profile
   },
   {
+    /*路由传递路由参数 query传递路由参数*/
     path: '/detail/:iid',
     component: Detail
-  }
+  },
 ]
+
+/*this.$router.push({
+  path:'/detail',
+  query:{
+    id:1
+  }
+})*/
 
 const router = new VueRouter({
   routes,

@@ -41,7 +41,6 @@
     }
   }
 </script>
-
 <style scoped>
   .tab-bar-item {
     flex: 1;
